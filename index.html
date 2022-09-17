@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bs/css/bootstrap.min.css">
+    <script src="./bs/js/jquery-3.6.0.min.js"></script>
+    <script src="./bs/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#jumbotron-box">主页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#introduct">个人介绍</a></li>
+                    <li><a href="#project">项目</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="jumbotron-box">
+            <div class="jumbotron">
+                <div class="container">
+                    <p>欢迎来到我的主页</p>
+                    <h1>很高兴你们的来访</h1>
+                    <p><a class="btn btn-default btn-bg" href="#" role="button">了解更多</a></p>
+                </div>
+            </div>
+            <div class="bg-mask"></div>
+        </section>
+
+        <section id="introduct">
+            <div class="container">
+                <h1>个人介绍</h1>
+
+                <div class="introduct-box">
+                   
+                        <img src="./img/bg.webp" alt="head-pic">
+
+                      <div class="content">
+                        <p>大家好，我是 ，来自于  ，专业是  。大学学习期间学习过c语言、java语言，html,css以及安卓课程。通过课程的学习，我对前端的知识越发感兴趣，经常通过看视频加自己敲代码巩固自己的前端知识。在学校的实训周中，对vue的知识有所了解，使用其进行项目作业的开发，在这个过程中我了解到自己的不足，对逻辑功能的实现不够完善。所以我希望在粤嵌的学习中能够系统的学习前端知识，提升自己的专业知识水平。最后希望大家能找到一份合心意的工作，祝大家前途似锦。</p>
+                        <strong>出生：</strong>
+                        <span>年/月/日</span>
+                        <strong>年龄：</strong>
+                        <span>数字</span>
+                        <strong>学校：</strong>
+                        <span>XXX大学</span>
+                        <strong>学历：</strong>
+                        <span>本/专</span>
+                        <strong>地址：</strong>
+                        <span>广州市从化区</span>
+                        <strong>手机：</strong>
+                        <span>180***</span>
+                        <strong>微信：</strong>
+                        <span>180***</span>
+                        <strong>邮箱：</strong>
+                        <span>***@qq.com</span>
+                      </div>
+                  
+                </div>
+
+                <div class="ability-box">
+                    <span class="ability-name">H5C3</span>
+                    <div class="progress">
+                        <div class="progress-bar  progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                          <span class="sr-only">40% Complete (success)</span>
+                        </div>
+                      </div>
+                      <span class="ability-name">JS / JQ</span>
+                      <div class="progress">
+                        <div class="progress-bar  progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                          <span class="sr-only">20% Complete</span>
+                        </div>
+                      </div>
+                      <span class="ability-name">Bootstrap</span>
+                      <div class="progress">
+                        <div class="progress-bar  progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                          <span class="sr-only">60% Complete (warning)</span>
+                        </div>
+                      </div>
+                      <span class="ability-name">Vue</span>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                          <span class="sr-only">80% Complete (danger)</span>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="project">
+            <div class="container">
+                <h1>项目介绍</h1>
+              
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="./img/bg.webp" alt="project">
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>...</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#"
+                                        class="btn btn-default" role="button">Button</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 ">
+                        <div class="thumbnail">
+                            <img src="./img/bg.webp" alt="project">
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>...</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#"
+                                        class="btn btn-default" role="button">Button</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 ">
+                        <div class="thumbnail">
+                            <img src="./img/bg.webp" alt="project">
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>...</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#"
+                                        class="btn btn-default" role="button">Button</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 ">
+                        <div class="thumbnail">
+                            <img src="./img/bg.webp" alt="project">
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>...</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#"
+                                        class="btn btn-default" role="button">Button</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
